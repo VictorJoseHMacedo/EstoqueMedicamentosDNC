@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    background: #76BEBE;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+#titulo {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 1rem;
+
+   
+    
+
+}
+
+#texto {
+    padding-right:45rem;
+}
+
+
+.logo {
+    padding-left:20rem;
+    
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #CF509C;
+    white-space: nowrap;
+    
+
+    margin-bottom:0 ;
+    padding-bottom:0 ;
+}
+
+
+h3{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    color: black;
+    width: none;
+
+}
+
+
+form{
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 500px;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+}
+
+input {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.57);
+    height: 54px;
+
+    border: 0;
+
+    font-family: 'Alegreya Sans SC';
+    
+}
+
+.submit-button{
+    background: #76BEBE;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    width: 244px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    border: 0;
+
+}
+
+
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+    padding-left:2rem;
+}
+
+th{
+    background: black;
+    color: white;
+    border: 1px solid #767373;
+    min-width: 110px;
+    font-family: 'Alegreya Sans SC';
+}
+
+

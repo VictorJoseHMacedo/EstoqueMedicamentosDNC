@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+
+    <title> Cadastro de Medicamentos </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <p>Home</p>
+            <p>Cadastro
+               de Medicamentos
+            </p>
+            <p>Cadastro
+               de Vacinas
+            </p>
+            <p>Cadastro
+               de Cosméticos
+            </p>
+            
+    </header>
+
+    <div id="titulo">
+        <img class="logo" src="remedio.png" alt="Logo do Remedio">
+            <div id="texto"> 
+                <h1>Cadastro de Medicamentos</h1>
+                <h3>Farmácia da Gente</h3>
+            </div>
+            
+    </div>
+
+    
+    <section id="sec-form">
+        <div id="form">
+
+            <form onsubmit="addRemedio()">
+                <label for="medicamento"> Nome do Medicamento </label>
+                <input autocomplete="off" type="text" required id="fmedicamento" name="medicamento">
+
+                <label for="quantidade"> Quantidade Disponivel </label> 
+                <input autocomplete="off" type="text" required id="fquantidade" name="quantidade">
+
+                <label for="tipo"> Classe de Medicamento </label> 
+                <input autocomplete="off" type="text" required id="ftipo" name="tipo">
+
+                <button class="submit-button"  type="submit">Cadastrar</button>
+            </form>
+
+        </div>
+
+        <div>
+                <table id="dataTable">
+                    <tr>
+                        <th>ID</th>
+                        <th>MEDICAMENTO</th>
+                        <th>QUANTIDADE</th>
+                        <th>CLASSE DE MEDICAMENTO</th>
+                        <th>REMOVER</th>
+                    </tr>
+
+                </table>
+
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
